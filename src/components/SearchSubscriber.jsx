@@ -9,6 +9,11 @@ const SearchSubscriber = () => {
                     <label className="form-label">Subscriber Name</label>
                     <input type="text" className="form-control" />
                 </div>
+                <div className="mb-3">
+                    <label className="form-label">Subscriber ID</label>
+                    <input type="text" className="form-control" />
+                </div>
+                
                 <button type="submit" className="btn btn-primary">Search</button>
             </form>
         </div>
